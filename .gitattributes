@@ -1,0 +1,3 @@
+# Hook + shell scripts must stay LF so /bin/sh runs them on Linux (e.g. a Pi).
+hooks/** text eol=lf
+*.sh     text eol=lf
